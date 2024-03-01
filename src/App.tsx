@@ -9,8 +9,8 @@ export default function App () {
   //   setShowForm(true)
   // }
   return (
-    <div className="flex flex-col justify-center items-center mx-10 md:mt-20">
-      <h1 className="text-center text-2xl font-semibold mt-5 mb-4 md:mt-10 md:mb-16  ">周末徒步探索队 🌱</h1>
+    <div className="flex flex-col justify-center items-center mx-10 ">
+      <h1 className="text-center text-2xl font-semibold mt-5 mb-4 md:mt-20 md:mb-16  ">周末徒步探索队 🌱</h1>
       <Event />
       
         
