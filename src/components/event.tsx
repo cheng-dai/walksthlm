@@ -13,7 +13,7 @@ export default function Event() {
           </div>
         <Map />
         
-{/* <iframe className="rounded-md" loading="lazy" allowFullScreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ0RAIjjCcX0YRlcz2JdAGl6w&key=AIzaSyAB7dkMz_LrbD_llOXtpx25WhAu3XakQm8"></iframe> */}
+
       </div>
     ) 
   }
