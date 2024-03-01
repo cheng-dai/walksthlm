@@ -6,11 +6,13 @@ export default function Map() {
   
 
   return (
-    <div className='w-[300px] md:w-[400px] aspect-square rounded-lg '>
+    <div className='w-[300px] md:w-[400px] aspect-square '>
 
    
-    <APIProvider apiKey={process.env.GOOGLE_MAP_API_KEY as string}>
-      <GoogleMap defaultCenter={position} defaultZoom={17} mapId={'fa0aec0ced6a481d'}>
+    <APIProvider apiKey={process.env.GOOGLE_MAP_API_KEY as string} >
+      
+
+      <GoogleMap defaultCenter={position} defaultZoom={17} mapId={'fa0aec0ced6a481d'} style={{borderRadius:'0.375rem'}}>
       <MapControl position={ControlPosition.LEFT_BOTTOM}>
         <a className='text-black bg-white text-xl px-2 py-1 shadow-md rounded-md ml-2 border-2 border-[#658C6F]' href='https://maps.app.goo.gl/T6eZJh7kEqbkn3Yw9' target='_blank'>Open In App</a>
       </MapControl>
@@ -18,6 +20,8 @@ export default function Map() {
         <Pin background={'#658C6F'} glyphColor={'#fff'} borderColor={'#658C6F'} scale={1.2}/>
         </AdvancedMarker>
       </GoogleMap>
+      
+      
     </APIProvider>
     </div>
   );
