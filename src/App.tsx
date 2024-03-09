@@ -1,6 +1,7 @@
 // import { useState } from "react"
 // import Form from "./components/form"
 import Event from "./components/event"
+import Footer from "./components/footer"
 
 export default function App () {
   // const [showForm, setShowForm] = useState(true)
@@ -14,12 +15,12 @@ export default function App () {
       <Event />
       
         
-          {/* <button onClick={join} className="px-10 py-2 text-2xl border-2 rounded-md">加入！</button>
+          {/* <button onClick={join} className="px-10 py-2 text-2xl border-2 lg">加入！</button>
           {showForm && <Form />} */}
 
-       <div className="rounded-md px-4 py-2 border text-2xl mt-8 md:text-4xl md:pointer-events-none md:line-through "><a href="/event.ics">加入日历</a></div> 
+       <div className="rounded-lg px-4 py-2 border-2 text-2xl my-4 md:my-8 md:text-4xl md:pointer-events-none md:line-through "><a href="/event.ics">加入日历</a></div> 
        <p className="hidden md:block mt-1 text-red-400 tracking-wide">请在手机端打开以加入日历</p>
-      
+       <Footer />
     </div>
   )
 } 

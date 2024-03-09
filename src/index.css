@@ -1,8 +1,12 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Gayathri:wght@400;700&family=Noto+Sans+SC:wght@100..900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
   background-color: #658C6F;
-  color: #FBFBFB
+  color: #FBFBFB;
+  font-family: 'Noto Sans SC', sans-serif;
 }
