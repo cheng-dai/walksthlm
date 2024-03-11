@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
-    <div className="absolute bottom-2 tracking-wider">
-      built with ❤️ by <a href='https://www.chengdai.dev' className='underline font-mono' target='_blank'>cheng</a>
+    <div className="sticky -z-10 bottom-2 tracking-wider max-md:text-sm">
+      built with ❤️ by <a href='https://www.chengdai.dev' className=' font-mono bg-gradient-to-br from-[#3a91c6] to-[#750c45] text-transparent bg-clip-text' target='_blank'>cheng</a>
     </div>
   )
 }
