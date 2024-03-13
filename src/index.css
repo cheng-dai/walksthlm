@@ -1,4 +1,4 @@
-
+@import url('https://ik.imagekit.io/cheng/huiwen-mincho/result.css?updatedAt=1710330518062');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,12 +6,13 @@
 :root {
   background-color: #658C6F;
   color: #FBFBFB;
-  font-family: 'huiwen', serif;
+  font-family: 'Huiwen-mincho', serif;
 }
 
-@font-face {
+/* @font-face {
   font-family: 'huiwen';
-  
+ 
+
 
   src: url('./assets/huiwen-mincho.woff2') format('woff2');
-}
+} */
