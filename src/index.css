@@ -1,6 +1,4 @@
 
-
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -8,5 +6,12 @@
 :root {
   background-color: #658C6F;
   color: #FBFBFB;
-  font-family: 'Noto Serif SC', serif;
+  font-family: 'huiwen', serif;
+}
+
+@font-face {
+  font-family: 'huiwen';
+  
+
+  src: url('./assets/huiwen-mincho.woff2') format('woff2');
 }
